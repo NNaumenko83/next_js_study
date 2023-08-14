@@ -1,9 +1,11 @@
-import React from "react";
+import type { Metadata } from "next";
 
-type Props = {};
+export const metadata: Metadata = {
+	title: "About | Next App",
+};
 
-const About = (props: Props) => {
-  return <div>About page</div>;
+const About = () => {
+	return <h3>Select subitem</h3>;
 };
 
 export default About;
